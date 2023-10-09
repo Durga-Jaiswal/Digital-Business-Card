@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid oldlace; */
+}
+body{
+  font-family: 'Inter', sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.card-component{
+  background-color: #1A1B21;
+  width:317px;
+  height: 100vh;
+  color: white;
+
+}
+.main-section{
+  max-height: 400px;
+  padding:10px;
+}
+.link-to-website{
+  color: #F5F5F5;
+  font-weight:300;
+  text-decoration: none;
+  margin:8px 0;
+  display: block;
+  text-align: center;
+  font-size:12px
+}
+.main-section > h1{
+  text-align: center;
+  font-size: 25px;
+}
+.job-role{
+  padding:2px 0;
+  font-size: 0.9rem;
+  text-align: center;
+  color:#F3BF99
+}
+
+img{
+  height: 250px;
+  width: 317px;
+}
+.button-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email-link,
+.linkedin-link{
+  display: inline-block;
+  padding:10px 20px;
+  margin:0 5px;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+.linkedin-link > a,
+.email-link > a{
+  text-decoration: none;
+  color: white;
+}
+.email-link > i,
+.linkedin-link > i{
+  margin-right: 7px;
+}
+.about-interest-section{
+  margin:0 14px;
+}
+.about-interest-section > h3{
+  text-decoration:underline;
+  text-decoration: overline;
+  font-size: 1.2rem;
+  margin:4px 0;
+}
+.about-interest-section > p{
+  font-size: 0.8em;
+  margin-bottom:10px;
+}
+.link-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin:30px 0;
+  font-size: 1.5em;
+}
+.link-section > i{
+  padding:10px;
+  background-color: white;
+  color: black;
+  border-radius:50px;
+}
+.link-section > a{
+  color: white;
+}
